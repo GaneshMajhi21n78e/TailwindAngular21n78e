@@ -770,10 +770,13 @@ input[type=file]::file-selector-button:hover {
 
 .h-10 {
   height: 2.5rem;
+<<<<<<< HEAD
 }
 
 .h-8 {
   height: 2rem;
+=======
+>>>>>>> ffedcf9bd7afe86eb2a48dd9e3b196ca9ed7c4fe
 }
 
 .min-h-full {
