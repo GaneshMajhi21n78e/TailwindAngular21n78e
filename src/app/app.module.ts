@@ -17,6 +17,8 @@ import { PeoplePageComponent } from './Pages/people-page/people-page.component';
 import { BlogPageComponent } from './Pages/blog-page/blog-page.component';
 import { JoinusPageComponent } from './Pages/joinus-page/joinus-page.component';
 import { ContactusPageComponent } from './Pages/contactus-page/contactus-page.component';
+import { AboutFeaturesComponent } from './Components/about-features/about-features.component';
+import { FooterComponent } from './Components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ContactusPageComponent } from './Pages/contactus-page/contactus-page.co
     PeoplePageComponent,
     BlogPageComponent,
     JoinusPageComponent,
-    ContactusPageComponent
+    ContactusPageComponent,
+    AboutFeaturesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
