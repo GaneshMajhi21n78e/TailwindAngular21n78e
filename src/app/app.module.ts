@@ -19,6 +19,7 @@ import { JoinusPageComponent } from './Pages/joinus-page/joinus-page.component';
 import { ContactusPageComponent } from './Pages/contactus-page/contactus-page.component';
 import { AboutFeaturesComponent } from './Components/about-features/about-features.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { ServicesCardComponent } from './Components/services-card/services-card.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { FooterComponent } from './Components/footer/footer.component';
     JoinusPageComponent,
     ContactusPageComponent,
     AboutFeaturesComponent,
-    FooterComponent
+    FooterComponent,
+    ServicesCardComponent
   ],
   imports: [
     BrowserModule,
