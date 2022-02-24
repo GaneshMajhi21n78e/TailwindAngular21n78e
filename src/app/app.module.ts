@@ -20,6 +20,7 @@ import { ContactusPageComponent } from './Pages/contactus-page/contactus-page.co
 import { AboutFeaturesComponent } from './Components/about-features/about-features.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { ServicesCardComponent } from './Components/services-card/services-card.component';
+import { OurWorkCardComponent } from './Components/our-work-card/our-work-card.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ServicesCardComponent } from './Components/services-card/services-card.
     ContactusPageComponent,
     AboutFeaturesComponent,
     FooterComponent,
-    ServicesCardComponent
+    ServicesCardComponent,
+    OurWorkCardComponent
   ],
   imports: [
     BrowserModule,
