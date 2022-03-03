@@ -21,6 +21,10 @@ import { AboutFeaturesComponent } from './Components/about-features/about-featur
 import { FooterComponent } from './Components/footer/footer.component';
 import { ServicesCardComponent } from './Components/services-card/services-card.component';
 import { OurWorkCardComponent } from './Components/our-work-card/our-work-card.component';
+import { PeopleComponent } from './Components/people/people.component';
+import { BlogComponent } from './Components/blog/blog.component';
+import { ContactComponent } from './Components/contact/contact.component';
+import { JoinUsComponent } from './Components/join-us/join-us.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { OurWorkCardComponent } from './Components/our-work-card/our-work-card.c
     AboutFeaturesComponent,
     FooterComponent,
     ServicesCardComponent,
-    OurWorkCardComponent
+    OurWorkCardComponent,
+    PeopleComponent,
+    BlogComponent,
+    ContactComponent,
+    JoinUsComponent
   ],
   imports: [
     BrowserModule,
