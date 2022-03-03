@@ -25,6 +25,7 @@ import { PeopleComponent } from './Components/people/people.component';
 import { BlogComponent } from './Components/blog/blog.component';
 import { ContactComponent } from './Components/contact/contact.component';
 import { JoinUsComponent } from './Components/join-us/join-us.component';
+import { CaseStudiesComponent } from './Components/case-studies/case-studies.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { JoinUsComponent } from './Components/join-us/join-us.component';
     PeopleComponent,
     BlogComponent,
     ContactComponent,
-    JoinUsComponent
+    JoinUsComponent,
+    CaseStudiesComponent
   ],
   imports: [
     BrowserModule,
